@@ -70,13 +70,12 @@ Do the following:
    2. Receive the numbers in the parameters: a and b
    3. Multiply a and b and return the answer
 */
-let a = 1
-let b = 3
+
 function multiply(a,b){
     /*add your code here*/
     return a*b
   }
-console.log(multiply(a,b))
+console.log(multiply(1,3))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -159,7 +158,20 @@ Use the game function below to do the following:
   
   HINT: While you can complete this with only conditionals based on strings, it may help to equate choice to a number when using Math.random()
 */
+// const computer = Math.floor(Math.random() * 3)
 
+function game(){
+
+  // if(human === 'Rock' && robot === 0){
+  //   return 'this is a tie'
+  // }else if(human === 'Paper' && robot === 1){
+  //   return 'this is a lose'
+  // }else{
+  //   console.log('human chose rock and robot chose Paper')
+  //   return 'this is a win'
+  // }
+}
+// console.log(game('paper',computer))
 
   
 
@@ -175,8 +187,8 @@ Using the miles function below do the following:
 */
 
 function miles(distance){
-    distance * 0.62137119224 ;
-    return distance;
+   return distance * 0.62137119224 ;
+   
   }
   
 
@@ -191,10 +203,11 @@ Using the feet function below do the following:
 
 
 function feet(cm){
-  cm*30.48; 
-  return length;
+ return cm*30.48; 
+   
   }
- console.log(length)
+ 
+  
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -213,7 +226,7 @@ Using the annoyingSong function below do the following:
       return(`${number} bottles of soda on the wall, ${number} bottles of soda, take one down pass it around ${number-1} bottles of soda on the wall`);
         
     }
-    console.log
+   
 }
 
 
@@ -286,3 +299,4 @@ export default{
     annoyingSong,
     grade
 }
+
