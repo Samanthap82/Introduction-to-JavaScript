@@ -208,11 +208,12 @@ Using the annoyingSong function below do the following:
 */
 
 
-  function annoyingSong(bottleNum) {
-    while (bottleNum > 0) {
-        console.log(`${bottleNum} bottles of soda on the wall, ${bottleNum} bottles of soda, take one down pass it around ${bottleNum-1} bottles of soda on the wall`);
-        bottleNum--;
+  function annoyingSong(number) {
+    while (number > 0) {
+      return(`${number} bottles of soda on the wall, ${number} bottles of soda, take one down pass it around ${number-1} bottles of soda on the wall`);
+        
     }
+    console.log
 }
 
 
