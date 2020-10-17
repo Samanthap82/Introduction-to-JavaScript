@@ -158,20 +158,21 @@ Use the game function below to do the following:
   
   HINT: While you can complete this with only conditionals based on strings, it may help to equate choice to a number when using Math.random()
 */
-// const computer = Math.floor(Math.random() * 3)
+const robot = Math.floor(Math.random() * 3)
 
-function game(){
+function game(human, robot){
 
-  // if(human === 'Rock' && robot === 0){
-  //   return 'this is a tie'
-  // }else if(human === 'Paper' && robot === 1){
-  //   return 'this is a lose'
-  // }else{
-  //   console.log('human chose rock and robot chose Paper')
-  //   return 'this is a win'
-  // }
+   if(human === 'Rock' && robot === 0){
+     return 'this is a tie'
+   }else if(human === 'Paper' && robot === 1){
+     return 'this is a lose'
+   }else{
+     
+     console.log('human chose rock and robot chose Paper')
+     return 'this is a win'
+ }
 }
-// console.log(game('paper',computer))
+
 
   
 
